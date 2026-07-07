@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   let cars = [
-    { id: 1, brand: "Audi", image: "img1.png", price: 2000, qty: 3 },
-    { id: 2, brand: "Polo", image: "img2.png", price: 3000, qty: 4 },
-    { id: 3, brand: "Lamborghini", image: "img1.png", price: 5000, qty: 5 },
-    { id: 4, brand: "Ferrari", image: "img2.png", price: 6000, qty: 8 },
-    { id: 5, brand: "Jaguar", image: "img1.png", price: 9000, qty: 2 },
+    { id: 1, brand: "Audi", image: "car1.png", price: 2000, qty: 3 },
+    { id: 2, brand: "Polo", image: "car2.png", price: 3000, qty: 4 },
+    { id: 3, brand: "Lamborghini", image: "car1.png", price: 5000, qty: 5 },
+    { id: 4, brand: "Ferrari", image: "car2.png", price: 6000, qty: 8 },
+    { id: 5, brand: "Jaguar", image: "car1.png", price: 9000, qty: 2 },
   ];
 
   let editIndex = null;
